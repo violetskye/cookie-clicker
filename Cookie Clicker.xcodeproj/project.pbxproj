@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BC95E221B696FF400608FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC95E211B696FF400608FD1 /* AppDelegate.swift */; };
+		0BC95E241B696FF400608FD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC95E231B696FF400608FD1 /* ViewController.swift */; };
+		0BC95E271B696FF400608FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC95E251B696FF400608FD1 /* Main.storyboard */; };
+		0BC95E291B696FF400608FD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC95E281B696FF400608FD1 /* Images.xcassets */; };
+		0BC95E2C1B696FF400608FD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BC95E2A1B696FF400608FD1 /* LaunchScreen.xib */; };
+		0BC95E381B696FF400608FD1 /* Cookie_ClickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC95E371B696FF400608FD1 /* Cookie_ClickerTests.swift */; };
+		0BC95E481B6A888C00608FD1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC95E471B6A888C00608FD1 /* ViewController2.swift */; };
+		441A35881B82BCB700B62FE3 /* cookiesBow.png in Resources */ = {isa = PBXBuildFile; fileRef = 441A35871B82BCB700B62FE3 /* cookiesBow.png */; };
+		441A358A1B82BCFF00B62FE3 /* Da Cookie png.png in Resources */ = {isa = PBXBuildFile; fileRef = 441A35891B82BCFF00B62FE3 /* Da Cookie png.png */; };
+		441A358C1B82BD2800B62FE3 /* cookiebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 441A358B1B82BD2800B62FE3 /* cookiebutton.png */; };
+		441A35901B82BD7400B62FE3 /* cute button.png in Resources */ = {isa = PBXBuildFile; fileRef = 441A358F1B82BD7400B62FE3 /* cute button.png */; };
+		441A35921B82BDC800B62FE3 /* infinity icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 441A35911B82BDC800B62FE3 /* infinity icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BC95E321B696FF400608FD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BC95E141B696FF400608FD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BC95E1B1B696FF400608FD1;
+			remoteInfo = "Cookie Clicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BC95E1C1B696FF400608FD1 /* Cookie Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cookie Clicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC95E201B696FF400608FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC95E211B696FF400608FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BC95E231B696FF400608FD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BC95E261B696FF400608FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BC95E281B696FF400608FD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BC95E2B1B696FF400608FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0BC95E311B696FF400608FD1 /* Cookie ClickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cookie ClickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC95E361B696FF400608FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC95E371B696FF400608FD1 /* Cookie_ClickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie_ClickerTests.swift; sourceTree = "<group>"; };
+		0BC95E471B6A888C00608FD1 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		441A35871B82BCB700B62FE3 /* cookiesBow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cookiesBow.png; sourceTree = "<group>"; };
+		441A35891B82BCFF00B62FE3 /* Da Cookie png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Da Cookie png.png"; sourceTree = "<group>"; };
+		441A358B1B82BD2800B62FE3 /* cookiebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cookiebutton.png; sourceTree = "<group>"; };
+		441A358F1B82BD7400B62FE3 /* cute button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cute button.png"; sourceTree = "<group>"; };
+		441A35911B82BDC800B62FE3 /* infinity icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infinity icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BC95E191B696FF400608FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BC95E2E1B696FF400608FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC95E131B696FF400608FD1 = {
+			isa = PBXGroup;
+			children = (
+				0BC95E1E1B696FF400608FD1 /* Cookie Clicker */,
+				0BC95E341B696FF400608FD1 /* Cookie ClickerTests */,
+				0BC95E1D1B696FF400608FD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BC95E1D1B696FF400608FD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BC95E1C1B696FF400608FD1 /* Cookie Clicker.app */,
+				0BC95E311B696FF400608FD1 /* Cookie ClickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BC95E1E1B696FF400608FD1 /* Cookie Clicker */ = {
+			isa = PBXGroup;
+			children = (
+				0BC95E211B696FF400608FD1 /* AppDelegate.swift */,
+				0BC95E231B696FF400608FD1 /* ViewController.swift */,
+				0BC95E251B696FF400608FD1 /* Main.storyboard */,
+				0BC95E471B6A888C00608FD1 /* ViewController2.swift */,
+				0BC95E281B696FF400608FD1 /* Images.xcassets */,
+				0BC95E2A1B696FF400608FD1 /* LaunchScreen.xib */,
+				0BC95E1F1B696FF400608FD1 /* Supporting Files */,
+			);
+			path = "Cookie Clicker";
+			sourceTree = "<group>";
+		};
+		0BC95E1F1B696FF400608FD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BC95E201B696FF400608FD1 /* Info.plist */,
+				441A35911B82BDC800B62FE3 /* infinity icon.png */,
+				441A358F1B82BD7400B62FE3 /* cute button.png */,
+				441A358B1B82BD2800B62FE3 /* cookiebutton.png */,
+				441A35891B82BCFF00B62FE3 /* Da Cookie png.png */,
+				441A35871B82BCB700B62FE3 /* cookiesBow.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BC95E341B696FF400608FD1 /* Cookie ClickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BC95E371B696FF400608FD1 /* Cookie_ClickerTests.swift */,
+				0BC95E351B696FF400608FD1 /* Supporting Files */,
+			);
+			path = "Cookie ClickerTests";
+			sourceTree = "<group>";
+		};
+		0BC95E351B696FF400608FD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BC95E361B696FF400608FD1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BC95E1B1B696FF400608FD1 /* Cookie Clicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BC95E3B1B696FF400608FD1 /* Build configuration list for PBXNativeTarget "Cookie Clicker" */;
+			buildPhases = (
+				0BC95E181B696FF400608FD1 /* Sources */,
+				0BC95E191B696FF400608FD1 /* Frameworks */,
+				0BC95E1A1B696FF400608FD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cookie Clicker";
+			productName = "Cookie Clicker";
+			productReference = 0BC95E1C1B696FF400608FD1 /* Cookie Clicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BC95E301B696FF400608FD1 /* Cookie ClickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BC95E3E1B696FF400608FD1 /* Build configuration list for PBXNativeTarget "Cookie ClickerTests" */;
+			buildPhases = (
+				0BC95E2D1B696FF400608FD1 /* Sources */,
+				0BC95E2E1B696FF400608FD1 /* Frameworks */,
+				0BC95E2F1B696FF400608FD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BC95E331B696FF400608FD1 /* PBXTargetDependency */,
+			);
+			name = "Cookie ClickerTests";
+			productName = "Cookie ClickerTests";
+			productReference = 0BC95E311B696FF400608FD1 /* Cookie ClickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BC95E141B696FF400608FD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Figure Infinity";
+				TargetAttributes = {
+					0BC95E1B1B696FF400608FD1 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					0BC95E301B696FF400608FD1 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 0BC95E1B1B696FF400608FD1;
+					};
+				};
+			};
+			buildConfigurationList = 0BC95E171B696FF400608FD1 /* Build configuration list for PBXProject "Cookie Clicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BC95E131B696FF400608FD1;
+			productRefGroup = 0BC95E1D1B696FF400608FD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BC95E1B1B696FF400608FD1 /* Cookie Clicker */,
+				0BC95E301B696FF400608FD1 /* Cookie ClickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BC95E1A1B696FF400608FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441A358A1B82BCFF00B62FE3 /* Da Cookie png.png in Resources */,
+				0BC95E271B696FF400608FD1 /* Main.storyboard in Resources */,
+				441A35881B82BCB700B62FE3 /* cookiesBow.png in Resources */,
+				0BC95E2C1B696FF400608FD1 /* LaunchScreen.xib in Resources */,
+				441A35901B82BD7400B62FE3 /* cute button.png in Resources */,
+				0BC95E291B696FF400608FD1 /* Images.xcassets in Resources */,
+				441A358C1B82BD2800B62FE3 /* cookiebutton.png in Resources */,
+				441A35921B82BDC800B62FE3 /* infinity icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BC95E2F1B696FF400608FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BC95E181B696FF400608FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC95E241B696FF400608FD1 /* ViewController.swift in Sources */,
+				0BC95E221B696FF400608FD1 /* AppDelegate.swift in Sources */,
+				0BC95E481B6A888C00608FD1 /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BC95E2D1B696FF400608FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC95E381B696FF400608FD1 /* Cookie_ClickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BC95E331B696FF400608FD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BC95E1B1B696FF400608FD1 /* Cookie Clicker */;
+			targetProxy = 0BC95E321B696FF400608FD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BC95E251B696FF400608FD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BC95E261B696FF400608FD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BC95E2A1B696FF400608FD1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BC95E2B1B696FF400608FD1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BC95E391B696FF400608FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0BC95E3A1B696FF400608FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BC95E3C1B696FF400608FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cookie Clicker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0BC95E3D1B696FF400608FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cookie Clicker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0BC95E3F1B696FF400608FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cookie ClickerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cookie Clicker.app/Cookie Clicker";
+			};
+			name = Debug;
+		};
+		0BC95E401B696FF400608FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cookie ClickerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cookie Clicker.app/Cookie Clicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BC95E171B696FF400608FD1 /* Build configuration list for PBXProject "Cookie Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC95E391B696FF400608FD1 /* Debug */,
+				0BC95E3A1B696FF400608FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BC95E3B1B696FF400608FD1 /* Build configuration list for PBXNativeTarget "Cookie Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC95E3C1B696FF400608FD1 /* Debug */,
+				0BC95E3D1B696FF400608FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BC95E3E1B696FF400608FD1 /* Build configuration list for PBXNativeTarget "Cookie ClickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC95E3F1B696FF400608FD1 /* Debug */,
+				0BC95E401B696FF400608FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BC95E141B696FF400608FD1 /* Project object */;
+}
